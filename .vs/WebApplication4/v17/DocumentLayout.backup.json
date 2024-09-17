@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\willi\\source\\repos\\WebApplication4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\repositories\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\repositories\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\migrations\\20240913002903_ini3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\migrations\\20240913002903_ini3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\migrations\\20240913000752_ini2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\migrations\\20240913000752_ini2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\migrations\\20240910222018_ini1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +59,8 @@
       "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\migrations\\20240910200521_ini0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\migrations\\20240910083510_ini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|c:\\users\\willi\\source\\repos\\webapplication4\\webapplication4\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C79EAED-612D-4ECC-A635-FDF2E80F861B}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,114 +86,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 380,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DirectorController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\DirectorController.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\DirectorController.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\DirectorController.cs",
-              "RelativeToolTip": "WebApplication4\\Controllers\\DirectorController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAcwEgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:37:19.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DirectorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\DirectorRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Repositories\\DirectorRepository.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\DirectorRepository.cs",
-              "RelativeToolTip": "WebApplication4\\Repositories\\DirectorRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAiwCsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:37:21.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240913002903_Ini3.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240913002903_Ini3.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240913002903_Ini3.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240913002903_Ini3.cs",
-              "RelativeToolTip": "WebApplication4\\Migrations\\20240913002903_Ini3.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:29:04.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240913000752_Ini2.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240913000752_Ini2.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240913000752_Ini2.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240913000752_Ini2.cs",
-              "RelativeToolTip": "WebApplication4\\Migrations\\20240913000752_Ini2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:07:53.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IDirectorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IDirectorRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Interfaces\\IDirectorRepository.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IDirectorRepository.cs",
-              "RelativeToolTip": "WebApplication4\\Interfaces\\IDirectorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:41:35.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240910222018_Ini1.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910222018_Ini1.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240910222018_Ini1.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910222018_Ini1.cs",
-              "RelativeToolTip": "WebApplication4\\Migrations\\20240910222018_Ini1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T22:20:18.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240910200521_ini0.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910200521_ini0.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240910200521_ini0.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910200521_ini0.cs",
-              "RelativeToolTip": "WebApplication4\\Migrations\\20240910200521_ini0.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T20:05:22.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Director.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Director.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Models\\Director.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Director.cs",
-              "RelativeToolTip": "WebApplication4\\Models\\Director.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:06:03.075Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
@@ -215,9 +104,74 @@
               "RelativeDocumentMoniker": "WebApplication4\\Controllers\\GenreController.cs",
               "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\GenreController.cs",
               "RelativeToolTip": "WebApplication4\\Controllers\\GenreController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAQwGYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswBYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T21:53:17.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DirectorController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\DirectorController.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\DirectorController.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\DirectorController.cs",
+              "RelativeToolTip": "WebApplication4\\Controllers\\DirectorController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T18:37:19.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDirectorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IDirectorRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Interfaces\\IDirectorRepository.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IDirectorRepository.cs",
+              "RelativeToolTip": "WebApplication4\\Interfaces\\IDirectorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T18:41:35.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Interfaces\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IMovieRepository.cs",
+              "RelativeToolTip": "WebApplication4\\Interfaces\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T00:43:39.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\MovieRepository.cs*",
+              "RelativeToolTip": "WebApplication4\\Repositories\\MovieRepository.cs*",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T00:26:13.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "WebApplication4\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowDYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T21:20:58.169Z",
               "EditorCaption": ""
             },
             {
@@ -235,7 +189,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Review.cs",
+              "RelativeToolTip": "WebApplication4\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:04:40.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Director.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Director.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Models\\Director.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Director.cs",
+              "RelativeToolTip": "WebApplication4\\Models\\Director.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T00:06:03.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "WebApplication4\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:45:52.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240910222018_Ini1.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910222018_Ini1.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240910222018_Ini1.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910222018_Ini1.cs",
+              "RelativeToolTip": "WebApplication4\\Migrations\\20240910222018_Ini1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:20:18.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240910200521_ini0.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910200521_ini0.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240910200521_ini0.cs",
+              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910200521_ini0.cs",
+              "RelativeToolTip": "WebApplication4\\Migrations\\20240910200521_ini0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:05:22.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MovieDto.cs",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Dto\\MovieDto.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Dto\\MovieDto.cs",
@@ -243,12 +259,11 @@
               "RelativeToolTip": "WebApplication4\\Dto\\MovieDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T21:58:24.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T21:58:24.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication4\\Properties\\launchSettings.json",
@@ -256,38 +271,11 @@
               "RelativeToolTip": "WebApplication4\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T00:17:39.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T00:17:39.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "WebApplication4\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T21:20:58.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GenreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\GenreRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Repositories\\GenreRepository.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\GenreRepository.cs",
-              "RelativeToolTip": "WebApplication4\\Repositories\\GenreRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswDIAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:45:52.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Helper\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Helper\\MappingProfiles.cs",
@@ -295,51 +283,11 @@
               "RelativeToolTip": "WebApplication4\\Helper\\MappingProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:47:08.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T22:47:08.484Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IMovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IMovieRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Interfaces\\IMovieRepository.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Interfaces\\IMovieRepository.cs",
-              "RelativeToolTip": "WebApplication4\\Interfaces\\IMovieRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:43:39.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\MovieRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Repositories\\MovieRepository.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Repositories\\MovieRepository.cs",
-              "RelativeToolTip": "WebApplication4\\Repositories\\MovieRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA7wDkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:26:13.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "WebApplication4\\Models\\Review.cs",
-              "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Models\\Review.cs",
-              "RelativeToolTip": "WebApplication4\\Models\\Review.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T22:04:40.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "20240910083510_Ini.cs",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\20240910083510_Ini.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Migrations\\20240910083510_Ini.cs",
@@ -347,12 +295,11 @@
               "RelativeToolTip": "WebApplication4\\Migrations\\20240910083510_Ini.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:45:51.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T18:45:51.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "LiteDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\Migrations\\LiteDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Migrations\\LiteDbContextModelSnapshot.cs",
@@ -360,24 +307,22 @@
               "RelativeToolTip": "WebApplication4\\Migrations\\LiteDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:41:03.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T18:41:03.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "WebApplication4",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
               "RelativeDocumentMoniker": "WebApplication4\\WebApplication4.csproj",
               "ToolTip": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
               "RelativeToolTip": "WebApplication4\\WebApplication4.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-10T20:00:48.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T20:00:48.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\WebApplication4\\WebApplication4\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApplication4\\appsettings.Development.json",

@@ -11,6 +11,7 @@ namespace WebApplication4.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    // GetGenresOfAMovie
     public class MovieController : ControllerBase
     {
         private readonly IMovieRepository _movieRepository;
@@ -37,8 +38,12 @@ namespace WebApplication4.Controllers
         [HttpGet("{movieId}")]
         [ProducesResponseType(200, Type = typeof(Movie))]
         [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
         public IActionResult GetMovieById(int movieId)
         {
+            if (!_movieRepository.MovieExists(movieId))
+                return NotFound();
+
             var movie = _mapper.Map<MovieDto>(_movieRepository.GetMovieById(movieId)); // Obtaining the object
 
             if (!ModelState.IsValid)
@@ -47,11 +52,27 @@ namespace WebApplication4.Controllers
             return Ok(movie);
         }
 
+        [HttpGet("{movieId}/genres")]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<Genre>))]
+        [ProducesResponseType(400)]
+        public IActionResult GetGenresByMovie(int movieId)
+        {
+            if (!_movieRepository.MovieExists(movieId))
+                return NotFound();
+
+            var genres = _movieRepository.GetGenresByMovie(movieId);
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(genres);
+
+        }
         [HttpPost]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         // bbeessttppoossiibbllee
-        public IActionResult CreateMovie([FromQuery] int genreId, [FromQuery] int directorId, MovieDto movieCreate)
+        public IActionResult CreateMovie([FromQuery] int directorId, [FromQuery] List<int> genreIds, MovieDto movieCreate)
         {
             if (movieCreate == null)
                 return BadRequest(ModelState);
@@ -71,7 +92,7 @@ namespace WebApplication4.Controllers
 
             var movieMap = _mapper.Map<Movie>(movieCreate);
 
-            if (!_movieRepository.CreateMovie(genreId, movieMap))
+            if (!_movieRepository.CreateMovie(directorId, genreIds, movieMap))
             {
                 ModelState.AddModelError("", "Something went wrong while saving.");
                 return StatusCode(500, ModelState);
@@ -82,6 +103,35 @@ namespace WebApplication4.Controllers
 
             return Ok("Successfully created");
         }
-                
+
+        [HttpPut("{movieId}")]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult UpdateMovie(int movieId, [FromQuery] int directorId, [FromQuery] List<int> genreIds, [FromBody] MovieDto updatedMovie)
+        {
+            if (updatedMovie == null) 
+                return BadRequest(ModelState);
+
+            if (movieId != updatedMovie.Id)
+                return BadRequest(ModelState);
+
+            if (!_movieRepository.MovieExists(movieId))
+                return NotFound();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var movieUpdateMap = _mapper.Map<Movie>(updatedMovie);
+
+
+            if (!_movieRepository.UpdateMovie(directorId, genreIds, movieUpdateMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while updating..");
+                return StatusCode(500, ModelState);
+            }
+
+            return NoContent();
+        }
     }
 }

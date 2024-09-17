@@ -133,7 +133,7 @@ namespace WebApplication4.Controllers
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-
+            
             var directorMap = _mapper.Map<Director>(updatedDirector);  // Of type Director DTO, (establishing mapping between director dto obj (param) and the director class
             
             if (!_directorRepository.UpdateDirector(directorMap))

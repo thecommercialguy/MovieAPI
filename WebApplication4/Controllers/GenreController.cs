@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel;
 using WebApplication4.Dto;
 using WebApplication4.Interfaces;
 using WebApplication4.Models;
@@ -14,7 +15,10 @@ namespace WebApplication4.Controllers
         private readonly IMapper _mapper;
 
         // GetGenre, GetGenre by id, GetMoviesByGenre (supposedly in the Genre url "path", Create genre
-        public GenreController(IGenreRepository genreRepository, IMapper mapper) 
+
+        // 
+
+        public GenreController(IGenreRepository genreRepository, IMapper mapper)
         {
             _genreRepository = genreRepository;
             _mapper = mapper;
@@ -27,13 +31,13 @@ namespace WebApplication4.Controllers
         {
             var genres = _genreRepository.GetGenres();
 
-            if (!ModelState.IsValid) 
+            if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             return Ok(genres);
 
         }
-        
+
         [HttpGet("{genreId}")]
         [ProducesResponseType(200, Type = typeof(ICollection<Genre>))]
         [ProducesResponseType(400)]
@@ -44,7 +48,7 @@ namespace WebApplication4.Controllers
 
             var genre = _genreRepository.GetGenre(genreId);
 
-            if (!ModelState.IsValid) 
+            if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             return Ok(genre);
@@ -59,7 +63,7 @@ namespace WebApplication4.Controllers
 
             if (!_genreRepository.GenreExists(genreId))
                 return NotFound();
-            
+
 
             var movies = _mapper.Map<List<MovieDto>>(
                 _genreRepository.GetMoviesByGenreId(genreId));
@@ -103,6 +107,67 @@ namespace WebApplication4.Controllers
             return Ok("Successfully created!");
 
         }
+
+        [HttpPut("{genreId}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateGenre([FromQuery] int genreId, GenreDto updatedGenre)
+        {
+            // Null check
+            if (updatedGenre == null)
+                return BadRequest(ModelState);
+
+            // **** **** **** **
+            if (genreId != updatedGenre.Id)
+                return BadRequest(ModelState);
+
+            // "Exists check" *
+            if (!_genreRepository.GenreExists(genreId))
+                return NotFound();
+
+            // Sequencing logic for this
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // This, wonder if course will cover it
+            var genreMap = _mapper.Map<Genre>(updatedGenre);
+
+            if (!_genreRepository.UpdateGenre(genreMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while updating..");  // Adding this to the "ModelState"
+                return StatusCode(500, ModelState);
+            }
+
+            return NoContent(); // Why "NoContent" for Update
+
+        }
+
+        [HttpDelete("{genreId}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteGenre(int genreId)
+        {
+            if (_genreRepository.GenreExists(genreId))
+                return NotFound();
+
+            var genreToDelete = _genreRepository.GetGenre(genreId);
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (!_genreRepository.DeleteGenre(genreToDelete))
+            {
+                ModelState.AddModelError("", "Something went wrong while deleting..");
+                return StatusCode(500, ModelState);
+            }
+
+            return NoContent();
+
+        }
+        
+
 
 
     }
