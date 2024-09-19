@@ -13,8 +13,17 @@ namespace WebApplication4.Repositories
             _context = context;
         }
 
-        public bool CreateReview(Review review)
+        public bool CreateReview(int reviewerId, int movieId, Review review)
         {
+            var reviewer = _context.Reviewers.Where(r => r.Id == reviewerId).FirstOrDefault();
+            var movie = _context.Movies.Where(m => m.Id == movieId).FirstOrDefault();   
+
+            if (reviewer == null || movie == null)
+                return false;
+
+            review.Reviewer = reviewer;
+            review.Movie = movie;
+
             _context.Reviews.Add(review);
 
             return Save();
@@ -42,7 +51,7 @@ namespace WebApplication4.Repositories
             throw new NotImplementedException();
         }*/
 
-        public bool ReviewExits(int reviewId)
+        public bool ReviewExists(int reviewId)
         {
             return _context.Reviews.Any(r => r.Id == reviewId);
 

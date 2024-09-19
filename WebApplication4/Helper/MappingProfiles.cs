@@ -14,6 +14,10 @@ namespace WebApplication4.Helper
             CreateMap<DirectorDto, Director>();
             CreateMap<Genre, GenreDto>();  
             CreateMap<GenreDto, Genre>();
+            CreateMap<Reviewer, ReviewerDto>();  
+            CreateMap<ReviewerDto, Reviewer>();
+            CreateMap<Review, ReviewDto>();  
+            CreateMap<ReviewDto, Review>();
         }
     }
 }

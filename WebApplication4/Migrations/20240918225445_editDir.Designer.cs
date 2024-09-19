@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication4.Data;
 
@@ -10,9 +11,11 @@ using WebApplication4.Data;
 namespace WebApplication4.Migrations
 {
     [DbContext(typeof(LiteDbContext))]
-    partial class LiteDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240918225445_editDir")]
+    partial class editDir
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
@@ -175,13 +178,13 @@ namespace WebApplication4.Migrations
             modelBuilder.Entity("WebApplication4.Models.Review", b =>
                 {
                     b.HasOne("WebApplication4.Models.Movie", "Movie")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebApplication4.Models.Reviewer", "Reviewer")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("ReviewerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -199,6 +202,13 @@ namespace WebApplication4.Migrations
             modelBuilder.Entity("WebApplication4.Models.Movie", b =>
                 {
                     b.Navigation("MovieGenres");
+
+                    b.Navigation("Reviews");
+                });
+
+            modelBuilder.Entity("WebApplication4.Models.Reviewer", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

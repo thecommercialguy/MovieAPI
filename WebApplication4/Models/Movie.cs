@@ -10,6 +10,6 @@ namespace WebApplication4.Models
         public Director? Director { get; set; }
         public ICollection<MovieGenre> MovieGenres { get; set; }
         // public ICollection<MovieDirector> MovieDirectors { get; set; }
-        public ICollection<Review>? Reviews { get; set; }
+        // public ICollection<Review>? Reviews { get; set; }
     }
 }

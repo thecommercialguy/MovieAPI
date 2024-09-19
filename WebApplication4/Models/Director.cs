@@ -7,7 +7,7 @@
         public string LastName { get; set; }
         public string Bio {  get; set; }
         // public ICollection<MovieDirector> MovieDirectors { get; set; }
-        public ICollection<Movie> Movies { get; set; }
+        // public ICollection<Movie> Movies { get; set; }
 
     }
 }

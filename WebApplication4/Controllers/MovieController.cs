@@ -133,5 +133,30 @@ namespace WebApplication4.Controllers
 
             return NoContent();
         }
+
+        [HttpDelete("{movieId}")]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult DeleteMovie(int movieId)
+        {
+            if (!_movieRepository.MovieExists(movieId))
+                return NotFound();
+
+            var movieToDelete = _movieRepository.GetMovieById(movieId);
+            
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (!_movieRepository.DeleteMovie(movieToDelete))
+            {
+                ModelState.AddModelError("", "Something went wrong while deleting..");
+                return StatusCode(500, ModelState);
+            }
+
+            return NoContent();
+        }
+
+
     }
 }

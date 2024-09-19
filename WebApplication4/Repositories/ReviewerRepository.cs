@@ -22,7 +22,7 @@ namespace WebApplication4.Repositories
 
         public bool DeleteReviewer(Reviewer reviewer)
         {
-            _context.Update(reviewer);
+            _context.Remove(reviewer);
 
             return Save();
         }

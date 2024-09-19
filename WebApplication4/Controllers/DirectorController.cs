@@ -147,8 +147,8 @@ namespace WebApplication4.Controllers
 
         [HttpDelete("{directorId}")]
         [ProducesResponseType(400)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(400)]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
         public IActionResult DeleteDirector(int directorId)
         {
             if (!_directorRepository.DirectorExists(directorId))
